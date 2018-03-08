@@ -60,7 +60,7 @@ searchForm = driver.find_elements_by_tag_name('input')
 searchForm[0].click()
 time.sleep(5)
 # Enter the name into the search bar
-searchForm[0].send_keys("Rachael Stone")
+searchForm[0].send_keys("David Bean")
 searchForm[0].send_keys(Keys.RETURN)
 time.sleep(5)
 #get the first search result
